@@ -103,6 +103,12 @@ menu.variant=Variant
 328.menu.LTO.Os_flto.ltoarcmd=avr-gcc-ar
 
 # Clock frequencies
+328.menu.clock.3_6864_MHz=3.6864 MHz
+328.menu.clock.3_6864_MHz.upload.port=UART0
+328.menu.clock.3_6864_MHz.upload.speed=115200
+328.menu.clock.3_6864_MHz.bootloader.low_fuses=0b1111{bootloader.cksel_bits}
+328.menu.clock.3_6864_MHz.build.f_cpu=3686400L
+
 328.menu.clock.16MHz_external=16 MHz external
 328.menu.clock.16MHz_external.upload.port=UART0
 328.menu.clock.16MHz_external.upload.speed=115200
